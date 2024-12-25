@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* General table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* ProductCategoryRow styles */
+.product-category-row {
+  background-color: #e9ecef;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+}
+
+/* ProductRow styles */
+.product-row {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.product-row:hover {
+  background-color: #f8f9fa;
+}
+
+/* SearchBar styles */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar label {
+  font-size: 14px;
+  color: #555;
+}
